@@ -1,0 +1,27 @@
+<!-- <p>header works!</p> -->
+<section> 
+    <mat-toolbar  class='navbar' color='primary'>
+      <div>Resort
+       <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon> -->
+       <mat-icon> local_hotel</mat-icon>
+    
+      </div> 
+    
+    
+      <div class="navigation">
+        
+        
+        <a mat-raised-button  class=active><a href="#">Home<mat-icon  aria-label="Example home icon">home</mat-icon></a></a>
+        <a  mat-raised-button routerLink="/aboutus"> About Us<mat-icon>info</mat-icon></a>
+     <!-- <button mat-raised-button >
+          <a [routerLink]="['/aboutus']">About Us</a>
+          </button> -->
+         <!-- <button mat-raised-button ><a routerLink="/aboutus"routerLinkActive="active">About Us</a></button>  -->
+        <a mat-raised-button routerLink="/bookroom">Book Room<mat-icon>room</mat-icon></a>
+        <a  mat-raised-button  routerLink="/contactus"> Contact Us<mat-icon>contact_support</mat-icon></a> 
+        <a mat-raised-button routerLink="/login">Login<mat-icon>login</mat-icon></a>
+     
+      </div>
+      
+    </mat-toolbar>
+    </section> 
