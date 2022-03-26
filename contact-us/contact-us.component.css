@@ -1,0 +1,50 @@
+div{
+    background-color: rgb(197, 194, 190);
+    padding: 10px;
+    float:left;
+   margin: auto;
+    
+   
+
+   
+}
+  
+
+/* section.about-us {
+    background-color: #252F3D;
+    padding: 30px;
+    
+}
+
+
+section.about-us strong {
+    color: white;
+}
+
+ul.about-us-links {
+    list-style: none;
+    padding: 0;
+}
+
+ul.about-us-links > li {
+    margin-top: 5px;
+}
+
+ul.about-us-links > li > a {
+    color: white;
+}
+
+ul.about-us-links > li > a:hover {
+    color: black;
+} */
+img {
+    border-radius: 50%;
+  }
+/* .col-md-3{
+    float: left;
+} */
+.about-us{
+    background-color: rgb(197, 194, 190);
+
+    width: 98.9%;
+}
